@@ -1,0 +1,88 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f8f8f8;
+}
+
+header {
+    background: #3b82f6;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #dbeafe;
+}
+
+/* Secciones */
+section {
+    padding: 20px;
+    background: white;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+/* Formulario */
+form input, button {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+button {
+    background: #3b82f6;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #1e40af;
+}
+
+/* Galería */
+.galeria .imagenes {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.galeria img {
+    width: 300px;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+}
+
+/* Enlace de volver */
+.volver {
+    display: block;
+    text-align: center;
+    margin: 30px auto;
+    text-decoration: none;
+    font-weight: bold;
+    color: #3b82f6;
+}
+
+.volver:hover {
+    color: #1e40af;
+}
