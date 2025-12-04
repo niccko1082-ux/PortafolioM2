@@ -1,3 +1,4 @@
+/* Estilos básicos para que no se vea feo */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -5,6 +6,7 @@ body {
     background: #110a0a;
 }
 
+/* La cabecera de la página */
 header {
     background: #3b82f6;
     color: white;
@@ -101,6 +103,7 @@ button:hover {
     transition: all 0.3s ease;
 }
 
+/* Aquí organizo las tarjetas de las mascotas */
 .lista-mascotas {
     display: flex;
     gap: 20px;
@@ -108,6 +111,7 @@ button:hover {
     flex-wrap: wrap;
 }
 
+/* Estilo de cada tarjeta */
 .mascota {
     background: white;
     padding: 15px;
