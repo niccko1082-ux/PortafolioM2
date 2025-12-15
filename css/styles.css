@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #110a0a;
+}
+
+/* Header */
+.header {
+    display: flex;
+    background: #3b82f6;
+    color: white;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+/* Navegación */
+.items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+.item {
+    text-decoration: none;
+    color: #eee;
+    transition: 0.3s;
+}
+
+.item:hover {
+    padding: 10px;
+    font-weight: bolder;
+    background-color: #ffffff36;
+    border-radius: 10px;
+}
+
+/* Main */
+.principal, .galeria  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 30px;
+}
+
+/* Sections */
+.sections {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #eee;
+    border-radius: 10px;
+    padding: 20px;
+    flex: 1 1 250px;
+    max-width: 400px;
+}
+
+.sections:hover {
+    box-shadow: #3b82f6;
+}
+
+.sections h2 {
+    color: #a4a4a4;
+}
+
+.sections p {
+    padding: 20px;
+}
+.proyectos {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.proyectos a {
+    text-decoration: none;
+    padding: 5px;
+    font-weight: bold;
+    color: rgba(35, 147, 199, 0.6);
+    transition: 0.3s;
+}
+
+.proyectos a:hover {
+    padding: 8px;
+    font-weight: bolder;
+    background-color: #64484836;
+    border-radius: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+input, button {
+    font-size: 20px;
+    border-radius: 8px;
+    border-color: #92b7f3;
+    padding: 10px;
+}
+
+.boxpets {
+    display: flex;
+    justify-content: center;
+}
+
+.pets {
+    text-decoration: none;
+    color: #eee;
+    font-size: 20px;
+    padding: 20px;
+    transition: 0.3s;
+}
+
+.pets:hover {
+    font-size: 25px;
+    padding: 20PX;
+    background-color: rgba(255, 255, 255, 0.425);
+    border-radius: 40PX;
+}
+ 

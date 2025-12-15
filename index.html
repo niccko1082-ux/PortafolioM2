@@ -5,51 +5,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Portafolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
     <!-- La cabecera con el menú -->
-    <header>
-        <h1>Mi Portafolio</h1>
-        <nav>
-            <ul>
-                <li><a href="#sobre-mi">Sobre mí</a></li>
-                <li><a href="#proyectos">Proyectos</a></li>
-                <li><a href="#contacto">Contacto</a></li>
+    <header class="header">
+        <h1 class="tittle">Mi Portafolio</h1>
+        <nav >
+            <ul class="items">
+                <li ><a class="item" href="#sobre-mi">Sobre mí</a></li>
+                <li ><a class="item" href="#proyectos">Proyectos</a></li>
+                <li ><a class="item" href="#contacto">Contacto</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- Sección sobre mí -->
-    <section id="sobre-mi">
-        <h2>Sobre mí</h2>
-        <p>Hola, Nicolas tengo 20 anos y estoy en riwi aprendiendo a desarrollar habilidades en HTML, CSS. Me gusta
-            estar y poner a fluir mi creatividad.
-        </p>
-    </section>
+    <main>
+        <div class="principal">
+            <!-- Sección sobre mí -->
+            <section id="sobre-mi" class="sections" >
+                <h2>Sobre mí</h2>
+                <p>Hola, Nicolas tengo 20 anos y estoy en riwi aprendiendo a desarrollar habilidades en HTML, CSS. Me gusta
+                    estar y poner a fluir mi creatividad.
+                </p>
+            </section>
 
-    <!-- Mis proyectos -->
-    <section id="proyectos">
-        <h2>Proyectos</h2>
-        <ul>
-            <li><a href="#">Proyecto 1</a></li>
-            <li><a href="#">Proyecto 2</a></li>
-            <li><a href="#">Proyecto 3</a></li>
-        </ul>
-    </section>
+            <!-- Mis proyectos -->
+            <section id="proyectos" class="sections" >
+                <h2>Proyectos</h2>
+            <div class="proyectos">
+                <a href="#">Proyecto 1</a>
+                <a href="#">Proyecto 2</a>
+                <a href="#">Proyecto 3</a>
+            </div>
+            </section>
 
-    <!-- Formulario de contacto -->
-    <section id="contacto">
-        <h2>Contacto</h2>
-        <form>
-            <input type="text" placeholder="Tu nombre">
-            <input type="email" placeholder="Tu correo">
-            <button type="submit">Enviar</button>
-        </form>
-    </section>
-    <!-- Enlace a mis mascotas -->
-    <a href="mascotas.html">Mis Mascotas</a>
+            <!-- Formulario de contacto -->
+            <section id="contacto" class="sections" >
+                <h2>Contacto</h2>
+                
+                    <form>
+                        <input type="text" placeholder="Tu nombre">
+                        <input type="email" placeholder="Tu correo">
+                        <button type="submit">Enviar</button>
+                    </form>
+                
+            </section>
+        </div>    
+
+        <!-- Enlace a mis mascotas -->
+        <section class="boxpets">
+            <a class="pets" href="mascotas.html">Mis Mascotas</a>
+        </section>        
+    </main>
+
 </body>
 
 </html>
