@@ -1,4 +1,4 @@
-body {
+body, html {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -14,6 +14,7 @@ body {
     justify-content: center;
     text-align: center;
     flex-direction: column;
+    min-width: 365px;
 }
 
 /* Navegación */
@@ -40,7 +41,7 @@ body {
 }
 
 /* Main */
-.principal, .galeria  {
+.principal {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -59,6 +60,7 @@ body {
     padding: 20px;
     flex: 1 1 250px;
     max-width: 400px;
+    min-width: 250px;
 }
 
 .sections:hover {
